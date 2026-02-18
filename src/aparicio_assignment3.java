@@ -15,9 +15,15 @@ public class aparicio_assignment3 {
             element++;
             arr [j] = sc.nextInt();
         }
-
+        // Before sort
+        System.out.println("---Before sorting in ascending order---");
         for (int i = 0; i < size; i++){ // Prints out contents of array
             System.out.print(arr [i] + "\t");
+        }
+        // After sorting
+        System.out.println("\n---After sorting in ascending order---");
+        for (int k = 0; k < size; k++){
+            System.out.print(arr [k] + "\t");
         }
     }
 }
