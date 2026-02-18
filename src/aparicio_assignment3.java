@@ -9,6 +9,12 @@ public class aparicio_assignment3 {
         int size = sc.nextInt();
 
         int[] arr = new int[size];
+        int element = 1; // for loop use. See below
+        for (int j = 0; j < size; j++){
+            System.out.println("Enter array element #" + element + ":");
+            element++;
+            arr [j] = sc.nextInt();
+        }
 
         for (int i = 0; i < size; i++){ // Prints out contents of array
             System.out.print(arr [i] + "\t");
