@@ -68,8 +68,12 @@ public class aparicio_assignment3 {
                 break;
             } else if (target < arr[mid]) {
                 high = mid - 1;
-            } else {
+            } else{
                 low = mid + 1;
+            }
+            if (target != arr[mid]){
+                System.out.println("Search Not Found!!");
+                break;
             }
         }
     }
